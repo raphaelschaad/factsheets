@@ -105,6 +105,10 @@ article section p + ol {
   padding-bottom: 0;
 }
 
+article .smallcaps {
+  font-variant-caps: all-small-caps;
+}
+
 article .reference {
   font-size: 10px;
   line-height: 1;
