@@ -31,7 +31,7 @@ article {
 }
 
 article header p,
-article h1:after,
+article h1,
 article section,
 article footer p {
   margin-left: 30px;
@@ -80,7 +80,8 @@ article h1 {
   font-weight: 700;
   letter-spacing: -1px;
   line-height: 44px;
-  margin: 40px 0 10px 0;
+  margin-top: 40px;
+  margin-bottom: 10px;
   text-align: center;
 }
 
