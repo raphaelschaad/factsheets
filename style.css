@@ -24,7 +24,7 @@ body {
 
 article {
   background-color: #FAFAFA;
-  width: 900px;
+  max-width: 1024px;
   margin: 85px auto 74px auto;
   border-radius: 5px;
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1), 0 30px 100px 0 rgba(14, 10, 51, 0.1);
@@ -158,4 +158,28 @@ a:visited {
 
 a:active {
   color: #EAE9F7;
+}
+
+/* Responsiveness */
+/* Use breakpoint-0.02px rather than 0.01px to work around a current rounding bug in Safari. */
+/* See https://bugs.webkit.org/show_bug.cgi?id=178261 */
+
+/* Rules for medium view ports */
+@media only screen and (max-width: 1023.98px) {
+  article {
+    margin: 0;
+  }
+
+  article,
+  header,
+  footer {
+    border-radius: 0;
+  }
+}
+
+/* Rules for small view ports */
+@media only screen and (max-width: 767.98px) {
+  #columns {
+    flex-direction: column;
+  }
 }
