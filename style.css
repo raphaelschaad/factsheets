@@ -60,7 +60,7 @@ header p {
 article h1::after {
   display: block;
   content: '';
-  height: 10px;
+  height: 8px;
   background-color: #483F73;
   border: none;
   margin-top: 10px;
