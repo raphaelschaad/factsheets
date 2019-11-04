@@ -152,12 +152,9 @@ a:link {
   color: black;
 }
 
+a:active,
 a:visited {
   color: #483F73;
-}
-
-a:active {
-  color: #EAE9F7;
 }
 
 .nobr {
